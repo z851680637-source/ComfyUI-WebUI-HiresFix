@@ -22,7 +22,6 @@
 - 支持 Hires sampler / scheduler、Hires prompt / negative prompt、Hires checkpoint 覆盖。
 - 正常显示 ComfyUI 进度条，只反映采样阶段；模型放大器分块阶段不占用进度条（与 WebUI 的 UI 行为一致，WebUI 的 tile 进度只在控制台）。
 - 兼容 4D image latent 与单帧 5D latent（Krea2 / Qwen-Image），自动检测 8x / 16x 的像素↔latent 压缩比（SD/FLUX/Krea2/Qwen-Image=8，MOSS-Image/Qwen-Image 2.1=16）。
-- 已实测 Krea2、MOSS-Image、Qwen-Image 2.1、Anima 的 512→1024 高清修复（含图像空间放大器路径）。
 - 自带 UI / API 两种格式的示例 workflow，以及 55 项单元测试 + 14 项集成测试。
 
 ## 模型兼容性
